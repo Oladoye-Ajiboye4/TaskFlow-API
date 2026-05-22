@@ -71,7 +71,7 @@ The API applies a rate limiter to all `/api/` routes using `express-rate-limit`.
 
 ## API Endpoints
 
-Base URL: `http://https://taskflow-api-czwr.onrender.com/api/tasks`
+Base URL: `https://taskflow-api-czwr.onrender.com/api/tasks`
 
 ### Create a task
 
@@ -128,7 +128,7 @@ Request body:
 ## Example Frontend Usage
 
 ```js
-const response = await fetch('http://https://taskflow-api-czwr.onrender.com/api/tasks');
+const response = await fetch('https://taskflow-api-czwr.onrender.com/api/tasks');
 const data = await response.json();
 console.log(data.tasks);
 ```
